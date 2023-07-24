@@ -35,6 +35,9 @@ npm start
 ```
 Upon following these instructions, your web browser will be launched, and the application located at http://localhost:3000 will be loaded. Within the application, you'll have the opportunity to engage with a 3D scene and explore various kernels to apply Gaussian blur effects.
 
+[![Gaussian Blur Showcase](https://img.youtube.com/vi/zdqe3yB6Lxs/0.jpg)](https://www.youtube.com/watch?v=zdqe3yB6Lxs)
+
+
 ## Acknowledgements
 
 We would like to express our gratitude to the creators and contributors of React, Three.js, GLSL and the Leva library. Their fantastic work and open-source contributions enable us to create captivating shader effects and push the boundaries of visual experiences.
