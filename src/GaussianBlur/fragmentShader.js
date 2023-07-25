@@ -38,9 +38,9 @@ void mainImage(out vec4 fragColor, vec2 fragCoord){
     vec2 p;
     vec4 col = vec4(0.0, 0.0, 0.0, 0.0);
 
-    for ( x = -r, p.x= (vUv.x)+(x*step); x <= r; x++, p.x += step ){ 
+    for ( x = -r, p.x= (vUv.x)+(x*step); x < r-1.0; x++, p.x += step ){ 
         xx = x*x;
-        for ( y = -r, p.y =(vUv.y)+(y*step); y <= r; y++, p.y += step ){ 
+        for ( y = -r, p.y =(vUv.y)+(y*step); y < r-1.0; y++, p.y += step ){ 
             yy = y*y;
             col += texture2D(iChannel0, p) * gaussianWeight(xx+yy, r);
         }

@@ -17,22 +17,24 @@ function GaussPlane() {
   const options = useMemo(() => {
     return {
       kernelSize: { 
-        value: 5, min: 1, max: 15, step: 2,
+        value: 5, min: 3, max: 15, step: 2,
         onChange: (value) => {
-          uniforms.radius.value = value;
+          let newValue = Math.ceil(value/2);
+          console.log('newValue', newValue)
+          uniforms.radius.value = newValue;
           
           let temp = [];
-          for(let y = -value; y <= value; ++y){
+          for(let y = -newValue; y < newValue - 1; ++y){
             let line = []
-            for(let x = -value; x <= value; ++x)
-              line.push(gaussianWeight(y*y + x*x, value))
+            for(let x = -newValue; x < newValue - 1; ++x)
+              line.push(gaussianWeight(y*y + x*x, newValue))
             temp.push(line)
           }
           setKernel(temp)
         }
       },
       hideKernel: {
-        value: true
+        value: false
       },
       hideImage: {
         value: false
@@ -121,8 +123,8 @@ function GaussPlane() {
               return <div key={x} className="kernels" >{
                 
                 rows.map((cols, y) => {
-                  let opacity = ((1.0 - Math.abs(mid - x) / (mid + 1)) + 
-                                (1.0 - Math.abs(mid - y) / (mid + 1))) / 2;
+                  let opacity = ((1.0 - Math.abs(mid - x) / (mid )) + 
+                                (1.0 - Math.abs(mid - y) / (mid ))) / 2;
 
                   return <div 
                     key={y} 

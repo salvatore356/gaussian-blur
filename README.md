@@ -1,6 +1,6 @@
-# Demystifying Shaders: Unlocking the Magic Behind Stunning Graphics
+# Unveiling the Magic of Gaussian Blur: A Smoother World of Images
 
-Welcome to the SkyShader repository! This repository showcases a simple Sky Shader effect implemented using React, Three.js, and GLSL. 
+Welcome to the SkyShader repository! This repository showcases a simple Gaussian Blur effect implemented using React, Three.js, and GLSL. 
 
 Read the full blog post on [Salvatore Labs Blog](https://blog.salvatorelabs.com/unveiling-the-magic-of-gaussian-blur-a-smoother-world-of-images).
 
