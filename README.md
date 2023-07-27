@@ -1,6 +1,6 @@
 # Unveiling the Magic of Gaussian Blur: A Smoother World of Images
 
-Welcome to the SkyShader repository! This repository showcases a simple Gaussian Blur effect implemented using React, Three.js, and GLSL. 
+Welcome to the Gaussian Blur repository! This repository showcases a simple Gaussian Blur effect implemented using React, Three.js, and GLSL, also this include a C++ version in the cpp folder. 
 
 Read the full blog post on [Salvatore Labs Blog](https://blog.salvatorelabs.com/unveiling-the-magic-of-gaussian-blur-a-smoother-world-of-images).
 
