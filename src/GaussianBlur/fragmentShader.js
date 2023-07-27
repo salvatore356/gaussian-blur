@@ -32,19 +32,23 @@ float gaussianWeight(float squaredL2Norm, float sigma) {
 }
 
 void mainImage(out vec4 fragColor, vec2 fragCoord){
-    float r = radius, xs = 1024.0, ys = 1024.0;
+    float r = ceil(radius/2.0), xs = 1024.0, ys = 1024.0;
     float step = 1.0 / ys;
     float x, y, xx, yy, rr = r*r;
     vec2 p;
     vec4 col = vec4(0.0, 0.0, 0.0, 0.0);
 
-    for ( x = -r, p.x= (vUv.x)+(x*step); x < r-1.0; x++, p.x += step ){ 
+    float weigthSum = 0.0;
+    for ( x = -r, p.x= (vUv.x)+(x*step); x <= r; x++, p.x += step ){ 
         xx = x*x;
-        for ( y = -r, p.y =(vUv.y)+(y*step); y < r-1.0; y++, p.y += step ){ 
+        for ( y = -r, p.y =(vUv.y)+(y*step); y <= r; y++, p.y += step ){ 
             yy = y*y;
-            col += texture2D(iChannel0, p) * gaussianWeight(xx+yy, r);
+            float w = gaussianWeight(xx+yy, r);
+            weigthSum += w;
+            col += texture2D(iChannel0, p) * w;
         }
     }
+    col /= weigthSum;
     fragColor = col;
 }
 

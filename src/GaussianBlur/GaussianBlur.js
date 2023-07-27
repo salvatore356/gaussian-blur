@@ -34,7 +34,7 @@ function GaussPlane() {
         }
       },
       hideKernel: {
-        value: false
+        value: true
       },
       hideImage: {
         value: false
