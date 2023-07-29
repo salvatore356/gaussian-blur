@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D31D1F62A6FE03300DB3881 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D1F52A6FE03300DB3881 /* main.cpp */; };
-		9D31D2042A6FE11F00DB3881 /* libjpeg.8.2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D31D2032A6FE11F00DB3881 /* libjpeg.8.2.2.dylib */; };
-		9D31D2052A6FE12C00DB3881 /* libjpeg.8.2.2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9D31D2032A6FE11F00DB3881 /* libjpeg.8.2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9D31D20A2A6FE18E00DB3881 /* donut.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D31D2092A6FE17300DB3881 /* donut.jpg */; };
+		9D28A8FE2A75BBD9008D0839 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D28A8FD2A75BBD9008D0839 /* main.cpp */; };
+		9D28A90B2A75BC44008D0839 /* libjpeg.8.2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D28A90A2A75BC44008D0839 /* libjpeg.8.2.2.dylib */; };
+		9D28A90C2A75BC52008D0839 /* libjpeg.8.2.2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9D28A90A2A75BC44008D0839 /* libjpeg.8.2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9D28A9132A75BCA7008D0839 /* donut.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D28A9122A75BC9D008D0839 /* donut.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9D31D1F02A6FE03300DB3881 /* CopyFiles */ = {
+		9D28A8F82A75BBD9008D0839 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				9D31D20A2A6FE18E00DB3881 /* donut.jpg in CopyFiles */,
+				9D28A9132A75BCA7008D0839 /* donut.jpg in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D31D2062A6FE12C00DB3881 /* Embed Libraries */ = {
+		9D28A90D2A75BC52008D0839 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9D31D2052A6FE12C00DB3881 /* libjpeg.8.2.2.dylib in Embed Libraries */,
+				9D28A90C2A75BC52008D0839 /* libjpeg.8.2.2.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,138 +38,136 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D31D1F22A6FE03300DB3881 /* ComputeVision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputeVision; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D31D1F52A6FE03300DB3881 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9D31D1FE2A6FE09000DB3881 /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
-		9D31D2012A6FE10200DB3881 /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = "../../../../../opt/homebrew/Cellar/jpeg-turbo/2.1.5.1/lib/libturbojpeg.a"; sourceTree = "<group>"; };
-		9D31D2032A6FE11F00DB3881 /* libjpeg.8.2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.2.2.dylib; path = "../../../../../opt/homebrew/Cellar/jpeg-turbo/2.1.5.1/lib/libjpeg.8.2.2.dylib"; sourceTree = "<group>"; };
-		9D31D2092A6FE17300DB3881 /* donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donut.jpg; sourceTree = "<group>"; };
-		9D31D20D2A6FE1C800DB3881 /* Image.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Image.hpp; sourceTree = "<group>"; };
-		9D31D2102A6FE1FF00DB3881 /* Constants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
-		9D31D2132A6FE22200DB3881 /* Pixel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pixel.hpp; sourceTree = "<group>"; };
-		9D31D2162A72775600DB3881 /* GaussFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GaussFilter.hpp; sourceTree = "<group>"; };
+		9D28A8FA2A75BBD9008D0839 /* ComputerVision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputerVision; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D28A8FD2A75BBD9008D0839 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9D28A9052A75BC0F008D0839 /* Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
+		9D28A9062A75BC0F008D0839 /* Pixel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pixel.hpp; sourceTree = "<group>"; };
+		9D28A9072A75BC0F008D0839 /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		9D28A9082A75BC0F008D0839 /* Image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Image.hpp; sourceTree = "<group>"; };
+		9D28A90A2A75BC44008D0839 /* libjpeg.8.2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.2.2.dylib; path = "../../../../../../../../opt/homebrew/Cellar/jpeg-turbo/2.1.5.1/lib/libjpeg.8.2.2.dylib"; sourceTree = "<group>"; };
+		9D28A90F2A75BC7C008D0839 /* GaussFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GaussFilter.hpp; sourceTree = "<group>"; };
+		9D28A9122A75BC9D008D0839 /* donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donut.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D31D1EF2A6FE03300DB3881 /* Frameworks */ = {
+		9D28A8F72A75BBD9008D0839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D31D2042A6FE11F00DB3881 /* libjpeg.8.2.2.dylib in Frameworks */,
+				9D28A90B2A75BC44008D0839 /* libjpeg.8.2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D31D1E92A6FE03300DB3881 = {
+		9D28A8F12A75BBD9008D0839 = {
 			isa = PBXGroup;
 			children = (
-				9D31D1F42A6FE03300DB3881 /* ComputeVision */,
-				9D31D1F32A6FE03300DB3881 /* Products */,
-				9D31D2002A6FE10200DB3881 /* Frameworks */,
+				9D28A8FC2A75BBD9008D0839 /* ComputerVision */,
+				9D28A8FB2A75BBD9008D0839 /* Products */,
+				9D28A9092A75BC44008D0839 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9D31D1F32A6FE03300DB3881 /* Products */ = {
+		9D28A8FB2A75BBD9008D0839 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D1F22A6FE03300DB3881 /* ComputeVision */,
+				9D28A8FA2A75BBD9008D0839 /* ComputerVision */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D31D1F42A6FE03300DB3881 /* ComputeVision */ = {
+		9D28A8FC2A75BBD9008D0839 /* ComputerVision */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D20B2A6FE1AF00DB3881 /* GaussFilter */,
-				9D31D2072A6FE15E00DB3881 /* Assets */,
-				9D31D1FC2A6FE08000DB3881 /* Utils */,
-				9D31D1F52A6FE03300DB3881 /* main.cpp */,
+				9D28A9102A75BC89008D0839 /* Assets */,
+				9D28A90E2A75BC6F008D0839 /* GaussFilter */,
+				9D28A9042A75BBFC008D0839 /* Utils */,
+				9D28A8FD2A75BBD9008D0839 /* main.cpp */,
 			);
-			path = ComputeVision;
+			path = ComputerVision;
 			sourceTree = "<group>";
 		};
-		9D31D1FC2A6FE08000DB3881 /* Utils */ = {
+		9D28A9042A75BBFC008D0839 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D1FE2A6FE09000DB3881 /* Utils.hpp */,
-				9D31D20D2A6FE1C800DB3881 /* Image.hpp */,
-				9D31D2102A6FE1FF00DB3881 /* Constants.hpp */,
-				9D31D2132A6FE22200DB3881 /* Pixel.hpp */,
+				9D28A9052A75BC0F008D0839 /* Constants.hpp */,
+				9D28A9082A75BC0F008D0839 /* Image.hpp */,
+				9D28A9062A75BC0F008D0839 /* Pixel.hpp */,
+				9D28A9072A75BC0F008D0839 /* Utils.hpp */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		9D31D2002A6FE10200DB3881 /* Frameworks */ = {
+		9D28A9092A75BC44008D0839 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D2032A6FE11F00DB3881 /* libjpeg.8.2.2.dylib */,
-				9D31D2012A6FE10200DB3881 /* libturbojpeg.a */,
+				9D28A90A2A75BC44008D0839 /* libjpeg.8.2.2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D31D2072A6FE15E00DB3881 /* Assets */ = {
+		9D28A90E2A75BC6F008D0839 /* GaussFilter */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D2082A6FE16600DB3881 /* imgs */,
+				9D28A90F2A75BC7C008D0839 /* GaussFilter.hpp */,
+			);
+			path = GaussFilter;
+			sourceTree = "<group>";
+		};
+		9D28A9102A75BC89008D0839 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D28A9112A75BC91008D0839 /* Imgs */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		9D31D2082A6FE16600DB3881 /* imgs */ = {
+		9D28A9112A75BC91008D0839 /* Imgs */ = {
 			isa = PBXGroup;
 			children = (
-				9D31D2092A6FE17300DB3881 /* donut.jpg */,
+				9D28A9122A75BC9D008D0839 /* donut.jpg */,
 			);
-			path = imgs;
-			sourceTree = "<group>";
-		};
-		9D31D20B2A6FE1AF00DB3881 /* GaussFilter */ = {
-			isa = PBXGroup;
-			children = (
-				9D31D2162A72775600DB3881 /* GaussFilter.hpp */,
-			);
-			path = GaussFilter;
+			path = Imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D31D1F12A6FE03300DB3881 /* ComputeVision */ = {
+		9D28A8F92A75BBD9008D0839 /* ComputerVision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D31D1F92A6FE03300DB3881 /* Build configuration list for PBXNativeTarget "ComputeVision" */;
+			buildConfigurationList = 9D28A9012A75BBD9008D0839 /* Build configuration list for PBXNativeTarget "ComputerVision" */;
 			buildPhases = (
-				9D31D1EE2A6FE03300DB3881 /* Sources */,
-				9D31D1EF2A6FE03300DB3881 /* Frameworks */,
-				9D31D1F02A6FE03300DB3881 /* CopyFiles */,
-				9D31D2062A6FE12C00DB3881 /* Embed Libraries */,
+				9D28A8F62A75BBD9008D0839 /* Sources */,
+				9D28A8F72A75BBD9008D0839 /* Frameworks */,
+				9D28A8F82A75BBD9008D0839 /* CopyFiles */,
+				9D28A90D2A75BC52008D0839 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ComputeVision;
-			productName = ComputeVision;
-			productReference = 9D31D1F22A6FE03300DB3881 /* ComputeVision */;
+			name = ComputerVision;
+			productName = ComputerVision;
+			productReference = 9D28A8FA2A75BBD9008D0839 /* ComputerVision */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D31D1EA2A6FE03300DB3881 /* Project object */ = {
+		9D28A8F22A75BBD9008D0839 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					9D31D1F12A6FE03300DB3881 = {
+					9D28A8F92A75BBD9008D0839 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 9D31D1ED2A6FE03300DB3881 /* Build configuration list for PBXProject "ComputeVision" */;
+			buildConfigurationList = 9D28A8F52A75BBD9008D0839 /* Build configuration list for PBXProject "ComputerVision" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,29 +175,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D31D1E92A6FE03300DB3881;
-			productRefGroup = 9D31D1F32A6FE03300DB3881 /* Products */;
+			mainGroup = 9D28A8F12A75BBD9008D0839;
+			productRefGroup = 9D28A8FB2A75BBD9008D0839 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D31D1F12A6FE03300DB3881 /* ComputeVision */,
+				9D28A8F92A75BBD9008D0839 /* ComputerVision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D31D1EE2A6FE03300DB3881 /* Sources */ = {
+		9D28A8F62A75BBD9008D0839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D31D1F62A6FE03300DB3881 /* main.cpp in Sources */,
+				9D28A8FE2A75BBD9008D0839 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9D31D1F72A6FE03300DB3881 /* Debug */ = {
+		9D28A8FF2A75BBD9008D0839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		9D31D1F82A6FE03300DB3881 /* Release */ = {
+		9D28A9002A75BBD9008D0839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,10 +306,9 @@
 			};
 			name = Release;
 		};
-		9D31D1FA2A6FE03300DB3881 /* Debug */ = {
+		9D28A9022A75BBD9008D0839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGA6WJP36F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -324,10 +321,9 @@
 			};
 			name = Debug;
 		};
-		9D31D1FB2A6FE03300DB3881 /* Release */ = {
+		9D28A9032A75BBD9008D0839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGA6WJP36F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -343,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D31D1ED2A6FE03300DB3881 /* Build configuration list for PBXProject "ComputeVision" */ = {
+		9D28A8F52A75BBD9008D0839 /* Build configuration list for PBXProject "ComputerVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D31D1F72A6FE03300DB3881 /* Debug */,
-				9D31D1F82A6FE03300DB3881 /* Release */,
+				9D28A8FF2A75BBD9008D0839 /* Debug */,
+				9D28A9002A75BBD9008D0839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D31D1F92A6FE03300DB3881 /* Build configuration list for PBXNativeTarget "ComputeVision" */ = {
+		9D28A9012A75BBD9008D0839 /* Build configuration list for PBXNativeTarget "ComputerVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D31D1FA2A6FE03300DB3881 /* Debug */,
-				9D31D1FB2A6FE03300DB3881 /* Release */,
+				9D28A9022A75BBD9008D0839 /* Debug */,
+				9D28A9032A75BBD9008D0839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D31D1EA2A6FE03300DB3881 /* Project object */;
+	rootObject = 9D28A8F22A75BBD9008D0839 /* Project object */;
 }

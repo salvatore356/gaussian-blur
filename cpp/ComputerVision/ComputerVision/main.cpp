@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  ComputeVision
+//  ComputerVision
 //
-//  Created by Salvatore on 25/7/23.
+//  Created by Salvatore on 29/7/23.
 //
 
 #include <iostream>
